@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="CalcAddr.cpp" path="/home/akanko/Documents/kirinCores/hls/src_c/CalcAddr.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="CalcAddr_tb.cpp" path="/home/akanko/Documents/kirinCores/hls/src_c/CalcAddr_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

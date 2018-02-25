@@ -54,7 +54,7 @@ module lbuPtrUpdater #(
 
     //----------------- Wrap Around Range Detect -----------------
     // wrap around end point check
-    assign flagWrapEndOver = (ptr_end < r_ptr) && waEn;
+    assign flagWrapEndOver = (ptr_end < r_ptr) & waEn;
     assign ptr_afterWAEnd = (flagWrapEndOver)? ptr_end : ptr_update;
     // wrap around start point check
     assign flagWrapStartOver = (r_ptr < ptr_start) && waEn;
